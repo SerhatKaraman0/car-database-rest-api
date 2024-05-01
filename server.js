@@ -59,6 +59,6 @@ app.get(`/:brandName/:carModel/`, (req, res) => {
     }
   });
 });
-app.listen(PORT, () => {
+app.listen("https://serhatkaraman0.github.io/car-database-rest-api/", () => {
   console.log(`Server is running on port http://localhost:3000/Acura/CL/`);
 });
